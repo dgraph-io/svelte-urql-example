@@ -1,0 +1,23 @@
+type User {
+  username: String! @id
+  postedReviews: [Review] @hasInverse(field: postedBy)
+}
+type Author {
+  name: String! @id
+  description: String
+  books: [Book] @hasInverse(field: author)
+}
+type Review {
+  id: ID!
+  text: String!
+  rating: Int!
+  postedBy: User!
+  reviewedBook: Book @hasInverse(field: reviews)
+}
+type Book {
+  id: ID!
+  name: String!
+  genre: String
+  author: Author!
+  reviews: [Review]
+}
