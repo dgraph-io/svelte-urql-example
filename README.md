@@ -3,8 +3,8 @@
 This app was made for the blog, in which we learn "How to build a book review app with Svelte, urql and Slash GraphQL".
 
 ```bash
-git clone 
-cd svelte-app
+git clone https://github.com/dgraph-io/svelte-urql-example.git
+cd svelte-urql-example
 ```
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
@@ -14,9 +14,11 @@ cd svelte-app
 Install the dependencies...
 
 ```bash
-cd svelte-app
+cd svelte-urql-example
 npm install
 ```
+
+Edit `src/App.svelte`, on line 12 replace "YOUR-SLASH-ENDPOINT" with your Slash GraphQL endpoint.
 
 ...then start [Rollup](https://rollupjs.org):
 
