@@ -1,6 +1,16 @@
 # Book review app
 
-This app was made for the blog, in which we learn "How to build a book review app with Svelte, urql and Slash GraphQL".
+This app was made for [this blog post](https://dgraph.io/blog/post/build-a-svelte-urql-app-with-slash-graphql/), in which we learn "How to build a book review app with Svelte, urql and Slash GraphQL".
+
+The blog post teaches you how to build a GraphQL app with:
+
+* [urql](https://formidable.com/open-source/urql/): a lightweight GraphQL client from [Formidable Labs](https://formidable.com/); 
+* [Svelte](https://svelte.dev/): a radical new javascript framework for building user interfaces; and
+* [Slash GraphQL](https://dgraph.io/slash-graphql): Dgraph’s managed GraphQL backend service. 
+
+Slash GraphQL lets you build GraphQL apps without worrying about deployments or translating to GraphQL from other storage domains - it’s just GraphQL, start to finish.
+
+Clone the repo with.
 
 ```bash
 git clone https://github.com/dgraph-io/svelte-urql-example.git
@@ -11,7 +21,9 @@ cd svelte-urql-example
 
 ## Get started
 
-Install the dependencies...
+[The accompanying blog post](https://dgraph.io/blog/post/build-a-svelte-urql-app-with-slash-graphql/) tells you how to get yourself a Slash GraphQL account and deploy a GraphQL backend for this example app.
+
+Then, install the dependencies...
 
 ```bash
 cd svelte-urql-example
